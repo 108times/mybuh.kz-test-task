@@ -1,0 +1,364 @@
+{
+  "title": "TestMyBuh",
+  "description": "Test task",
+  "header": {
+    "logo": {
+      "url": "./img/logotype.svg"
+    },
+    "menu": {
+      "items": [
+        {
+          "text": "About",
+          "href": "#about"
+        },
+        {
+          "text": "Services",
+          "href": "#Services"
+        },
+        {
+          "text": "Projects",
+          "href": "#Projects"
+        },
+        {
+          "text": "Blog",
+          "href": "#Blog"
+        },
+        {
+          "text": "Book a call",
+          "href": "#Book a call",
+          "withArrow": true
+        }
+      ]
+    }
+  },
+  "hero": {
+    "title": ["I design products", "that delight and inspire people"],
+    "text": "Hi! I’m a product designer based in Paris. I create user-friendly interfaces for fast-growing startups.",
+    "avatarUrl": "./img/hero-avatar.svg",
+    "primaryBtn": {
+      "text": "Book a call",
+      "href": "#"
+    },
+    "secondaryBtn": {
+      "text": "Download CV",
+      "href": "#"
+    },
+    "trustedBy": [
+      {
+        "imageUrl": "./img/logo-1",
+        "href": "#logo-1"
+      },
+      {
+        "imageUrl": "./img/logo-2",
+        "href": "#logo-2"
+      },
+      {
+        "imageUrl": "./img/logo-3",
+        "href": "#logo-3"
+      },
+      {
+        "imageUrl": "./img/logo-4",
+        "href": "#logo-4"
+      }
+    ]
+  },
+  "services": {
+    "title": "Services",
+    "description": "Design that solves problems, one product at a time.",
+    "items": [
+      {
+        "image": {
+          "url": "./img/service-1.svg"
+        },
+        "title": "What I can do for you",
+        "text": "Faster, better products that your users love. Here's all the services I provide:",
+        "points": ["Design Strategy", "Web and Mobile App Design", "Front-end Development"]
+      },
+      {
+        "image": {
+          "url": "./img/service-2.svg"
+        },
+        "title": "Applications I'm fluent in",
+        "text": "Every designer needs the right tools to do the perfect job. Thankfully, I'm multilingual.",
+        "points": ["Sketch", "Webflow", "Figma"]
+      },
+      {
+        "image": {
+          "url": "./img/service-3.svg"
+        },
+        "title": "What you can expect",
+        "text": "I design products that are more than pretty. I make them shippable and usable.",
+        "points": ["Clean and functional", "Device and user friendly", "Efficient and maintainable"]
+      }
+    ]
+  },
+  "projects": {
+    "title": "Projects",
+    "description": ["I bring results.", "My clients are proof."],
+    "btn": {
+      "text": "View all projects",
+      "href": "#projects"
+    },
+    "items": [
+      {
+        "img": {
+          "url": "./img/project-1.svg"
+        },
+        "title": "Branding",
+        "description": "Soulful Rebrand",
+        "url": "#project-1"
+      },
+      {
+        "img": {
+          "url": "./img/project-2.svg"
+        },
+        "title": "Product Design",
+        "description": "Datadash Product design",
+        "url": "#project-2"
+      },
+      {
+        "img": {
+          "url": "./img/project-3.svg"
+        },
+        "title": "Web Design",
+        "description": "Maize Website Design",
+        "url": "#project-3"
+      }
+    ]
+  },
+  "blogs": {
+    "title": "Blogs",
+    "description": "Latest Blogs",
+    "btn": {
+      "text": "View all",
+      "href": "#"
+    },
+    "items": [
+      {
+        "date": "April 16, 2021, 6 mins",
+        "title": "Design tips for designers, that cover everything you need",
+        "href": "#blog-1"
+      },
+      {
+        "date": "April 16, 2021, 5 mins",
+        "title": "How to build rapport with your web design clients",
+        "href": "#blog-2"
+      },
+      {
+        "date": "April 16, 2021, 5 mins",
+        "title": "Top 6 free website mockup tools 2021",
+        "href": "#blog-3"
+      },
+      {
+        "date": "April 16, 2021, 7 mins",
+        "title": "Logo design trends to avoid in 2021",
+        "href": "#blog-4"
+      },
+      {
+        "date": "April 16, 2021, 7 mins",
+        "title": "22 best UI design tools",
+        "href": "#blog-5"
+      }
+    ]
+  },
+  "about": {
+    "title": "Product Designer",
+    "description": {
+      "title": "That's me!",
+      "text": "Over the past 12 years, I've worked with a diverse range of clients, from startups to Fortune 500 companies. I love crafting interfaces that delight users and help businesses grow."
+    },
+    "gallery": [
+      {
+        "url": "./img/about-1.svg",
+        "alt": "Project 1"
+      },
+      {
+        "url": "./img/about-2.svg",
+        "alt": "Project 2"
+      },
+      {
+        "url": "./img/about-3.svg",
+        "alt": "Project 3"
+      },
+      {
+        "url": "./img/about-4.svg",
+        "alt": "Project 4"
+      }
+    ],
+    "sections": [
+      {
+        "type": "default",
+        "title": "📚 Education",
+        "items": [
+          {
+            "title": "Stanford University",
+            "description": "MSc (Human Computer Interaction)",
+            "date": " 2013-2015",
+            "url": "#Stanford University"
+          },
+          {
+            "title": "MIT Summer School",
+            "description": "UX Training Bootcamp",
+            "date": " 2013-2014",
+            "url": "#MIT Summer School"
+          },
+          {
+            "title": "California State University",
+            "description": "BSc in Software Engineering",
+            "date": " 2009-2012",
+            "url": "#California State University"
+          }
+        ]
+      },
+      {
+        "type": "with-logo",
+        "title": "💼 Work Experience",
+        "items": [
+          {
+            "image": {
+              "url": "./img/space-fleet.svg"
+            },
+            "title": "SpaceFleet",
+            "description": "Senior Product Designer",
+            "date": "April 2019 - Current",
+            "url": "#SpaceFleet"
+          },
+          {
+            "image": {
+              "url": "./img/music-mash.svg"
+            },
+            "title": "MusicMash",
+            "description": "Information Architect",
+            "date": "April 2016 - May 2017",
+            "url": "#MusicMash"
+          },
+          {
+            "image": {
+              "url": "./img/kingdom.svg"
+            },
+            "title": "Kingdom",
+            "description": "UI Designer",
+            "date": "April 2016 - May 2017",
+            "url": "#Kingdom"
+          }
+        ]
+      }
+    ]
+  },
+  "testimonials": {
+    "title": "Testimonials",
+    "description": "Word on the street",
+    "items": [
+      {
+        "text": "Jade helped us build a software so intuitive that it didn't need a walkthrough. He solved complex problems with brilliant design.",
+        "href": "#testimonial-1",
+        "about": {
+          "name": "John Frankin",
+          "who": "Founder, Double Bunch"
+        }
+      }
+    ]
+  },
+  "faq": {
+    "title": "FAQ",
+    "description": "Frequently asked questions",
+    "items": [
+      {
+        "question": "What type of projects do you take on?",
+        "anwer": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio, pariatur esse soluta rem nesciunt eaque quod vero quibusdam! Iure inventore molestias veritatis nobis natus qui modi totam atque, saepe quam dolor exercitationem consequuntur rerum."
+      },
+      {
+        "question": "What is your hourly rate?",
+        "anwer": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio, pariatur esse soluta rem nesciunt eaque quod vero quibusdam! Iure inventore molestias veritatis nobis natus qui modi totam atque, saepe quam dolor exercitationem consequuntur rerum."
+      },
+      {
+        "question": "What time-zone do you work in?",
+        "anwer": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio, pariatur esse soluta rem nesciunt eaque quod vero quibusdam! Iure inventore molestias veritatis nobis natus qui modi totam atque, saepe quam dolor exercitationem consequuntur rerum."
+      },
+      {
+        "question": "What is the typical timeline for a project?",
+        "anwer": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio, pariatur esse soluta rem nesciunt eaque quod vero quibusdam! Iure inventore molestias veritatis nobis natus qui modi totam atque, saepe quam dolor exercitationem consequuntur rerum."
+      },
+      {
+        "question": "How do you charge for projects ?",
+        "anwer": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio, pariatur esse soluta rem nesciunt eaque quod vero quibusdam! Iure inventore molestias veritatis nobis natus qui modi totam atque, saepe quam dolor exercitationem consequuntur rerum."
+      },
+      {
+        "question": "What does your design process look like?",
+        "anwer": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio, pariatur esse soluta rem nesciunt eaque quod vero quibusdam! Iure inventore molestias veritatis nobis natus qui modi totam atque, saepe quam dolor exercitationem consequuntur rerum."
+      },
+      {
+        "question": "What metrics do you use to measure success?",
+        "anwer": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio, pariatur esse soluta rem nesciunt eaque quod vero quibusdam! Iure inventore molestias veritatis nobis natus qui modi totam atque, saepe quam dolor exercitationem consequuntur rerum."
+      },
+      {
+        "question": "What if I need help after the project is complete?",
+        "anwer": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio, pariatur esse soluta rem nesciunt eaque quod vero quibusdam! Iure inventore molestias veritatis nobis natus qui modi totam atque, saepe quam dolor exercitationem consequuntur rerum."
+      }
+    ]
+  },
+  "footer": {
+    "title": [
+      { "text": "Ready to make something kickass?" },
+      { "text": "Let's get on a call.", "highlighted": true }
+    ],
+    "contact": {
+      "title": "Portfolio Creator.",
+      "description": "4353 Delaware Avenue, San Francisco, USA",
+      "mail": "hi@thefolio.com"
+    },
+    "menu": [
+      [
+        {
+          "text": "About",
+          "href": "#about"
+        },
+        {
+          "text": "Contact",
+          "href": "#Contact"
+        },
+        {
+          "text": "Dribble",
+          "href": "#Dribble"
+        }
+      ],
+      [
+        {
+          "text": "Services",
+          "href": "#Services"
+        },
+        {
+          "text": "Blog",
+          "href": "#Blog"
+        },
+        {
+          "text": "Instagram",
+          "href": "#Instagram"
+        }
+      ],
+      [
+        {
+          "text": "Experience",
+          "href": "#Experience"
+        },
+        {
+          "text": "Projects",
+          "href": "#Projects"
+        },
+        {
+          "text": "Twitter",
+          "href": "#Twitter"
+        }
+      ]
+    ],
+    "copyright": [
+      { "text": "© All rights reserved." },
+      { "text": "Sumit Hegde ." },
+      { "text": "Powered by Webflow " },
+      { "text": "Image License Info", "url": "#Image License Info" },
+      { "text": "Instructions", "url": "#Instructions" },
+      { "text": "Changelog", "url": "#Changelog" },
+      { "text": "Style Guide", "url": "#Style Guide" }
+    ]
+  }
+}

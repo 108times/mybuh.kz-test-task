@@ -1,0 +1,53 @@
+@use 'sass:color';
+
+/// Typography
+
+/// Regular font family
+$text-font-stack: 'Roboto', 'Helvetica Neue Light', 'Helvetica Neue', 'Helvetica', 'Arial',
+  sans-serif !default;
+
+/// Regular font size
+$font-size: 16px !default;
+
+/// Colors
+
+/// Text color
+$text-color: #000000 !default;
+// Secondary text color
+$text-color-lighter: #666666 !default;
+/// Orange
+$orange: #ff8a56 !default;
+$orange-lighter: #ffa84b !default;
+/// Pink
+$pink: #ff5e69 !default;
+/// Blue
+$blue: #3c46ff !default;
+/// Violet
+$violet: #b16cea !default;
+/// Gray
+$gray: #8a95ad !default;
+/// Main brand color
+$brand-color: #ff8a56 !default;
+// Hover main brand color
+$brand-color-lighter: color.adjust($brand-color, $lightness: 15%) !default;
+
+/// transition
+$trans-dur-default: 250ms;
+$trans-time-func-default: ease-out;
+
+/// Container's maximum width
+$max-width: 1215px !default;
+
+/// Breakpoints map
+$breakpoints: (
+  'xs': 342px,
+  'sm': 576px,
+  'md': 768px,
+  'lg': 992px,
+  'xl': 1124px,
+) !default;
+
+$hamburger-size: 70px;
+$hamburger-bg: #fff;
+$hamburger-box-shadow: 0 0 8px 2px rgba(0, 0, 0, 0.3);
+$hamburger-transition: 0.5s ease-in-out;
