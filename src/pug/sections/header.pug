@@ -2,10 +2,11 @@
 header.header
   .container.header__container
     - var alt = getAlt(data.logo.url);
-    img.logo.header__logo(src=data.logo.url alt=alt)
+    a.header__logo-link(href='/')
+      img.logo.header__logo(src=data.logo.url alt=alt)
     ul.menu.header__menu
-      each val in data.menu.items
-        li.menu__item
-          a.menu__link(href=val.href) #{val.text}
+      each val,idx in data.menu.items
+        li.menu__item(class=idx === 0 ? 'active' : '')
+          a.menu__link(href=val.href ) #{val.text}
             if val.withArrow
-              span.menu__link-arrow
+              +svgIcon('arrow-right')(class='menu__item-arrow')

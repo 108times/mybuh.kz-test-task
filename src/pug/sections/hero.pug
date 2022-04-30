@@ -4,7 +4,7 @@ section.section.hero
     .row.hero__body
       .hero__left
         - var title = parseTitle(data.title, 1);
-        h1.hero__title !{title}
+        h1.hero__title.big-title !{title}
         p.hero__text #{data.text}
         .hero__buttons
           +button(data.primaryBtn.href)(class='hero__btn primary') #{data.primaryBtn.text}
@@ -14,9 +14,9 @@ section.section.hero
         - var alt = getAlt(data.avatarUrl);
 
         img.hero__avatar(src=data.avatarUrl,alt=alt)
-        .hero__bottom
-            h6 Trusted by
-                ul.brands
+      .hero__bottom
+            h6.hero__brands-title Trusted by
+            ul.hero__brands.brands
                     each val in data.trustedBy
                       li.brand.brands__item
                         a.brand__link(href=val.href)

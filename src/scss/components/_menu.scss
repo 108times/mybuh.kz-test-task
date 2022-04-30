@@ -1,0 +1,27 @@
+.menu {
+  padding-right: rem(16);
+  &__item {
+    display: inline-block;
+    margin-right: rem(45);
+    color: $font-color;
+    &:last-child {
+      margin-right: 0;
+    }
+
+    &:hover {
+      outline: 1px $font-color solid ;
+      outline-offset: 5px;
+    }
+    &.active {
+      color: $brand-color;
+      &:hover {
+        outline-color: $brand-color;
+      }
+    }
+  }
+
+  &__link {
+  text-decoration: none;
+    color: inherit;
+  }
+}

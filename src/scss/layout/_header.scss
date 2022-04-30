@@ -1,0 +1,32 @@
+.header {
+
+  &__container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: rem(81);
+  }
+  &__logo {
+
+      display: block;
+    transform: translateY(2px);
+    position: relative;
+
+  }
+  &__menu {
+    align-self: flex-end;
+
+  }
+
+  .menu {
+
+
+    &__item {
+
+
+      &-arrow {
+        margin-left: rem(15);
+      }
+    }
+  }
+}

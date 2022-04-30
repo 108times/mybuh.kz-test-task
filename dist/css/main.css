@@ -705,6 +705,168 @@ body {
   font-size: 1rem;
 }
 
+.menu {
+  padding-right: 1rem;
+}
+
+.menu__item {
+  display: inline-block;
+  margin-right: 2.8125rem;
+  color: #000000;
+}
+
+.menu__item:last-child {
+  margin-right: 0;
+}
+
+.menu__item:hover {
+  outline: 1px #000000 solid;
+  outline-offset: 5px;
+}
+
+.menu__item.active {
+  color: #ff8a56;
+}
+
+.menu__item.active:hover {
+  outline-color: #ff8a56;
+}
+
+.menu__link {
+  text-decoration: none;
+  color: inherit;
+}
+
+.icon {
+  width: 0.75rem;
+  height: 0.75rem;
+}
+
+.big-title {
+  font-weight: 700;
+  font-size: 4.5rem;
+  letter-spacing: 2px;
+  line-height: 5.125rem;
+}
+
+.btn {
+  padding: 1.0625rem 1.875rem 1.25rem;
+  font-size: 1.125em;
+  text-decoration: none;
+  color: #fff;
+  display: inline-block;
+}
+
+.btn--primary {
+  background: #000;
+}
+
+.btn--secondary {
+  color: #000;
+}
+
+.header__container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 5.0625rem;
+}
+
+.header__logo {
+  display: block;
+  -webkit-transform: translateY(2px);
+      -ms-transform: translateY(2px);
+          transform: translateY(2px);
+  position: relative;
+}
+
+.header__menu {
+  -ms-flex-item-align: end;
+      align-self: flex-end;
+}
+
+.header .menu__item-arrow {
+  margin-left: 0.9375rem;
+}
+
+.hero {
+  margin-top: 4.375rem;
+}
+
+.hero__right {
+  max-width: 40%;
+}
+
+.hero__left {
+  padding-left: 0.5rem;
+  max-width: 40.625rem;
+}
+
+.hero__title {
+  margin-bottom: 0;
+}
+
+.hero__title .highlight {
+  color: #ff8a56;
+}
+
+.hero__text {
+  max-width: 90%;
+  font-size: 1.375rem;
+  color: #666666;
+  line-height: 2.0625rem;
+  margin-top: 2.1875rem;
+}
+
+.hero__buttons {
+  margin-top: 2.3125rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 0.875rem;
+}
+
+.hero__buttons .icon {
+  margin-left: 1.875rem;
+  -webkit-transform: scale(1.12) translateY(0.125rem);
+      -ms-transform: scale(1.12) translateY(0.125rem);
+          transform: scale(1.12) translateY(0.125rem);
+}
+
+.hero__avatar {
+  position: relative;
+  left: 3.75rem;
+}
+
+.hero__bottom {
+  margin-top: 3.125rem;
+  padding-left: 0;
+}
+
+.hero__brands {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  gap: 6.25rem;
+  list-style: none;
+  padding-left: 0.3125rem;
+}
+
+.hero__brands-title {
+  font-size: 1.125rem;
+  font-weight: 400;
+  text-align: center;
+}
+
 @media (min-width: 576px) {
   .col-sm {
     -webkit-box-flex: 1;

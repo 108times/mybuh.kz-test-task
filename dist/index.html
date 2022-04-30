@@ -8,17 +8,17 @@
     <title>TestMyBuh</title>
     <meta name="description" content="Test task">
     <link rel="icon" type="image/x-icon" href="/img/favicon.ico">
-    <link rel="stylesheet" href="css/style.min.css?_v=20220430091540">
+    <link rel="stylesheet" href="css/style.min.css?_v=20220430103957">
   </head>
   <body>
     <header class="header">
-      <div class="container header__container"><img class="logo header__logo" src="./img/logotype.svg" alt="logotype">
+      <div class="container header__container"><a class="header__logo-link" href="/"><img class="logo header__logo" src="./img/logotype.svg" alt="logotype"></a>
         <ul class="menu header__menu">
-          <li class="menu__item"><a class="menu__link" href="#about">About</a></li>
+          <li class="menu__item active"><a class="menu__link" href="#about">About</a></li>
           <li class="menu__item"><a class="menu__link" href="#Services">Services</a></li>
           <li class="menu__item"><a class="menu__link" href="#Projects">Projects</a></li>
           <li class="menu__item"><a class="menu__link" href="#Blog">Blog</a></li>
-          <li class="menu__item"><a class="menu__link" href="#Book a call">Book a call<span class="menu__link-arrow"></span></a></li>
+          <li class="menu__item"><a class="menu__link" href="#Book a call">Book a call<img class="icon arrow-right menu__item-arrow" src="./img/icons/icons.svg#arrow-right" alt="arrow-right Icon"/></a></li>
         </ul>
       </div>
     </header>
@@ -27,22 +27,21 @@
       <div class="container">
         <div class="row hero__body">
           <div class="hero__left">
-            <h1 class="hero__title"><span class='highlight'>I design products</span> <br/><span class=''>that delight and inspire people</span> </h1>
+            <h1 class="hero__title big-title"><span class='highlight'>I design products</span> <br/><span class=''>that delight and inspire people.</span> </h1>
             <p class="hero__text">Hi! I’m a product designer based in Paris. I create user-friendly interfaces for fast-growing startups.</p>
             <div class="hero__buttons"><a class="btn btn--primary hero__btn primary" href="#" data-effect="ripple">Book a call</a><a class="btn btn--secondary hero__btn secondary" href="#" data-effect="ripple">Download CV<img class="icon arrow-right hero__arrow-right" src="./img/icons/icons.svg#arrow-right" alt="arrow-right Icon"/></a>
             </div>
           </div>
           <div class="hero__right"><img class="hero__avatar" src="./img/hero-avatar.svg" alt="hero-avatar">
-            <div class="hero__bottom">
-              <h6>Trusted by
-                <ul class="brands">
-                  <li class="brand brands__item"><a class="brand__link" href="#logo-1"><img class="brand__img" src="./img/logo-1.svg" alt="logo-1"></a></li>
-                  <li class="brand brands__item"><a class="brand__link" href="#logo-2"><img class="brand__img" src="./img/logo-2.svg" alt="logo-2"></a></li>
-                  <li class="brand brands__item"><a class="brand__link" href="#logo-3"><img class="brand__img" src="./img/logo-3.svg" alt="logo-3"></a></li>
-                  <li class="brand brands__item"><a class="brand__link" href="#logo-4"><img class="brand__img" src="./img/logo-4.svg" alt="logo-4"></a></li>
-                </ul>
-              </h6>
-            </div>
+          </div>
+          <div class="hero__bottom">
+            <h6 class="hero__brands-title">Trusted by</h6>
+            <ul class="hero__brands brands">
+              <li class="brand brands__item"><a class="brand__link" href="#logo-1"><img class="brand__img" src="./img/logo-1.svg" alt="logo-1"></a></li>
+              <li class="brand brands__item"><a class="brand__link" href="#logo-2"><img class="brand__img" src="./img/logo-2.svg" alt="logo-2"></a></li>
+              <li class="brand brands__item"><a class="brand__link" href="#logo-3"><img class="brand__img" src="./img/logo-3.svg" alt="logo-3"></a></li>
+              <li class="brand brands__item"><a class="brand__link" href="#logo-4"><img class="brand__img" src="./img/logo-4.svg" alt="logo-4"></a></li>
+            </ul>
           </div>
         </div>
       </div>
@@ -53,7 +52,7 @@
         <h2 class="services__title">Design that solves problems, one product at a time.</h2>
         <div class="row services__items">
           <div class="service .col-md-4.services__item"><img class="service__img" src="./img/service-1.svg" alt="service-1"/>
-            <h5 class="service__title">&lt;span class='highlight'&gt;I design products&lt;/span&gt; &lt;br/&gt;&lt;span class=''&gt;that delight and inspire people&lt;/span&gt; </h5>
+            <h5 class="service__title">&lt;span class='highlight'&gt;I design products&lt;/span&gt; &lt;br/&gt;&lt;span class=''&gt;that delight and inspire people.&lt;/span&gt; </h5>
             <p class="service__text"></p>
             <ul class="service__points">
               <li class="service__point">Design Strategy</li>
@@ -62,7 +61,7 @@
             </ul>
           </div>
           <div class="service .col-md-4.services__item"><img class="service__img" src="./img/service-2.svg" alt="service-2"/>
-            <h5 class="service__title">&lt;span class='highlight'&gt;I design products&lt;/span&gt; &lt;br/&gt;&lt;span class=''&gt;that delight and inspire people&lt;/span&gt; </h5>
+            <h5 class="service__title">&lt;span class='highlight'&gt;I design products&lt;/span&gt; &lt;br/&gt;&lt;span class=''&gt;that delight and inspire people.&lt;/span&gt; </h5>
             <p class="service__text"></p>
             <ul class="service__points">
               <li class="service__point">Sketch</li>
@@ -71,7 +70,7 @@
             </ul>
           </div>
           <div class="service .col-md-4.services__item"><img class="service__img" src="./img/service-3.svg" alt="service-3"/>
-            <h5 class="service__title">&lt;span class='highlight'&gt;I design products&lt;/span&gt; &lt;br/&gt;&lt;span class=''&gt;that delight and inspire people&lt;/span&gt; </h5>
+            <h5 class="service__title">&lt;span class='highlight'&gt;I design products&lt;/span&gt; &lt;br/&gt;&lt;span class=''&gt;that delight and inspire people.&lt;/span&gt; </h5>
             <p class="service__text"></p>
             <ul class="service__points">
               <li class="service__point">Clean and functional</li>
@@ -273,5 +272,5 @@
       </div>
     </footer>
   </body>
-  <script src="js/app.min.js?_v=20220430091540"></script>
+  <script src="js/app.min.js?_v=20220430103957"></script>
 </html>

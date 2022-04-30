@@ -35,7 +35,7 @@
     }
   },
   "hero": {
-    "title": ["I design products", "that delight and inspire people"],
+    "title": ["I design products", "that delight and inspire people."],
     "text": "Hi! I’m a product designer based in Paris. I create user-friendly interfaces for fast-growing startups.",
     "avatarUrl": "./img/hero-avatar.svg",
     "primaryBtn": {

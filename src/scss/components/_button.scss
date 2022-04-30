@@ -1,0 +1,14 @@
+.btn {
+  padding: rem(17) rem(30) rem(20);
+  font-size: em(18);
+  text-decoration: none;
+  color: #fff;
+  display: inline-block;
+  &--primary {
+    background: #000;
+  }
+
+  &--secondary {
+    color: #000
+  }
+}
