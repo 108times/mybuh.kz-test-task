@@ -1,8 +1,11 @@
 - var data = faq
-faq.section.faq
+section.section.faq
     .container.faq__container
         h3.section__title.faq__pretitle #{data.title}
         h2.faq__title #{data.description}
-        div.row.faq__items
-          each val in data.items
-              +faq-element('.faq__item', val)
+        div.faq__items
+            - var html = ""
+            each val,index in data.items
+              -
+                    html += faqElement('faq__item', val, index)
+            | !{html}

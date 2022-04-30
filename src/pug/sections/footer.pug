@@ -5,12 +5,17 @@ footer.section.footer
         h2.footer__title !{title}
         .row.footer__body
             .col-md-6.footer__contact
-                h5.footer__contact-title #{data.contact.title}
+                h5.footer__contact-title
+                    - var alt = getAlt(data.contact.logo.url)
+                    img.footer__logo(src=data.contact.logo.url alt=alt)
                 span.footer__contact-description.gray-text #{data.contact.description}
-                a.footer__contact-mail(href=`mailto:${data.contact.mail}` target='_blank') #{data.contact.mail}
+                a.footer__contact-mail(href=`mailto:${data.contact.mail}` target='_blank')
+                    +svgIcon('mail')
+                    | #{data.contact.mail}
             .col-md-6.footer__menu
                 each menu in data.menu
                     +footer-menu('footer__menu-item', menu)
+
         p.footer__copyright.gray-text
                 each val in data.copyright
                     span.footer__copyright-text

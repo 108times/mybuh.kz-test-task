@@ -270,35 +270,35 @@
     "items": [
       {
         "question": "What type of projects do you take on?",
-        "anwer": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio, pariatur esse soluta rem nesciunt eaque quod vero quibusdam! Iure inventore molestias veritatis nobis natus qui modi totam atque, saepe quam dolor exercitationem consequuntur rerum."
+        "answer": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio, pariatur esse soluta rem nesciunt eaque quod vero quibusdam! Iure inventore molestias veritatis nobis natus qui modi totam atque, saepe quam dolor exercitationem consequuntur rerum."
       },
       {
         "question": "What is your hourly rate?",
-        "anwer": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio, pariatur esse soluta rem nesciunt eaque quod vero quibusdam! Iure inventore molestias veritatis nobis natus qui modi totam atque, saepe quam dolor exercitationem consequuntur rerum."
+        "answer": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio, pariatur esse soluta rem nesciunt eaque quod vero quibusdam! Iure inventore molestias veritatis nobis natus qui modi totam atque, saepe quam dolor exercitationem consequuntur rerum."
       },
       {
         "question": "What time-zone do you work in?",
-        "anwer": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio, pariatur esse soluta rem nesciunt eaque quod vero quibusdam! Iure inventore molestias veritatis nobis natus qui modi totam atque, saepe quam dolor exercitationem consequuntur rerum."
+        "answer": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio, pariatur esse soluta rem nesciunt eaque quod vero quibusdam! Iure inventore molestias veritatis nobis natus qui modi totam atque, saepe quam dolor exercitationem consequuntur rerum."
       },
       {
         "question": "What is the typical timeline for a project?",
-        "anwer": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio, pariatur esse soluta rem nesciunt eaque quod vero quibusdam! Iure inventore molestias veritatis nobis natus qui modi totam atque, saepe quam dolor exercitationem consequuntur rerum."
+        "answer": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio, pariatur esse soluta rem nesciunt eaque quod vero quibusdam! Iure inventore molestias veritatis nobis natus qui modi totam atque, saepe quam dolor exercitationem consequuntur rerum."
       },
       {
         "question": "How do you charge for projects ?",
-        "anwer": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio, pariatur esse soluta rem nesciunt eaque quod vero quibusdam! Iure inventore molestias veritatis nobis natus qui modi totam atque, saepe quam dolor exercitationem consequuntur rerum."
+        "answer": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio, pariatur esse soluta rem nesciunt eaque quod vero quibusdam! Iure inventore molestias veritatis nobis natus qui modi totam atque, saepe quam dolor exercitationem consequuntur rerum."
       },
       {
         "question": "What does your design process look like?",
-        "anwer": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio, pariatur esse soluta rem nesciunt eaque quod vero quibusdam! Iure inventore molestias veritatis nobis natus qui modi totam atque, saepe quam dolor exercitationem consequuntur rerum."
+        "answer": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio, pariatur esse soluta rem nesciunt eaque quod vero quibusdam! Iure inventore molestias veritatis nobis natus qui modi totam atque, saepe quam dolor exercitationem consequuntur rerum."
       },
       {
         "question": "What metrics do you use to measure success?",
-        "anwer": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio, pariatur esse soluta rem nesciunt eaque quod vero quibusdam! Iure inventore molestias veritatis nobis natus qui modi totam atque, saepe quam dolor exercitationem consequuntur rerum."
+        "answer": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio, pariatur esse soluta rem nesciunt eaque quod vero quibusdam! Iure inventore molestias veritatis nobis natus qui modi totam atque, saepe quam dolor exercitationem consequuntur rerum."
       },
       {
         "question": "What if I need help after the project is complete?",
-        "anwer": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio, pariatur esse soluta rem nesciunt eaque quod vero quibusdam! Iure inventore molestias veritatis nobis natus qui modi totam atque, saepe quam dolor exercitationem consequuntur rerum."
+        "answer": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio, pariatur esse soluta rem nesciunt eaque quod vero quibusdam! Iure inventore molestias veritatis nobis natus qui modi totam atque, saepe quam dolor exercitationem consequuntur rerum."
       }
     ]
   },
@@ -306,7 +306,9 @@
     "title": ["Ready to make something kickass?", "Let's get on a call."],
 
     "contact": {
-      "title": "Portfolio Creator.",
+      "logo": {
+        "url": "./img/footer-logo.svg"
+      },
       "description": "4353 Delaware Avenue, San Francisco, USA",
       "mail": "hi@thefolio.com"
     },
@@ -357,7 +359,8 @@
     "copyright": [
       { "text": "© All rights reserved." },
       { "text": "Sumit Hegde ." },
-      { "text": "Powered by Webflow " },
+      { "text": "Powered by " },
+      { "text": "Webflow"   },
       { "text": "Image License Info", "url": "#Image License Info" },
       { "text": "Instructions", "url": "#Instructions" },
       { "text": "Changelog", "url": "#Changelog" },

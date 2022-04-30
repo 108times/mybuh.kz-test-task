@@ -8,7 +8,7 @@
     <title>TestMyBuh</title>
     <meta name="description" content="Test task">
     <link rel="icon" type="image/x-icon" href="/img/favicon.ico">
-    <link rel="stylesheet" href="css/style.min.css?_v=20220430160204">
+    <link rel="stylesheet" href="css/style.min.css?_v=20220430221229">
   </head>
   <body>
     <header class="header">
@@ -229,44 +229,77 @@
         <div class="testimonials__navigation"><span class="testimonials__slider-prev swiper-button-prev"><img class="icon arrow-right-simple-white " src="./img/icons/icons.svg#arrow-right-simple-white" alt="arrow-right-simple-white Icon"/></span><span class="testimonials__slider-next swiper-button-next"><img class="icon arrow-right-simple-white " src="./img/icons/icons.svg#arrow-right-simple-white" alt="arrow-right-simple-white Icon"/></span></div>
       </div>
     </section>
-    <faq class="section faq">
+    <section class="section faq">
       <div class="container faq__container">
         <h3 class="section__title faq__pretitle">FAQ</h3>
         <h2 class="faq__title">Frequently asked questions</h2>
-        <div class="row faq__items">
-          <div class="faq-element .faq__item"><a class="faq-element__question" href="#What type of projects do you take on?">What type of projects do you take on?</a>
-            <div class="faq-elemnt__answer" id="#What type of projects do you take on?"></div>
-          </div>
-          <div class="faq-element .faq__item"><a class="faq-element__question" href="#What is your hourly rate?">What is your hourly rate?</a>
-            <div class="faq-elemnt__answer" id="#What is your hourly rate?"></div>
-          </div>
-          <div class="faq-element .faq__item"><a class="faq-element__question" href="#What time-zone do you work in?">What time-zone do you work in?</a>
-            <div class="faq-elemnt__answer" id="#What time-zone do you work in?"></div>
-          </div>
-          <div class="faq-element .faq__item"><a class="faq-element__question" href="#What is the typical timeline for a project?">What is the typical timeline for a project?</a>
-            <div class="faq-elemnt__answer" id="#What is the typical timeline for a project?"></div>
-          </div>
-          <div class="faq-element .faq__item"><a class="faq-element__question" href="#How do you charge for projects ?">How do you charge for projects ?</a>
-            <div class="faq-elemnt__answer" id="#How do you charge for projects ?"></div>
-          </div>
-          <div class="faq-element .faq__item"><a class="faq-element__question" href="#What does your design process look like?">What does your design process look like?</a>
-            <div class="faq-elemnt__answer" id="#What does your design process look like?"></div>
-          </div>
-          <div class="faq-element .faq__item"><a class="faq-element__question" href="#What metrics do you use to measure success?">What metrics do you use to measure success?</a>
-            <div class="faq-elemnt__answer" id="#What metrics do you use to measure success?"></div>
-          </div>
-          <div class="faq-element .faq__item"><a class="faq-element__question" href="#What if I need help after the project is complete?">What if I need help after the project is complete?</a>
-            <div class="faq-elemnt__answer" id="#What if I need help after the project is complete?"></div>
-          </div>
+        <div class="faq__items">
+           <div class='col-md-6' faq__column>
+           <div class="faq-element faq__item"><a onclick="window.showAction('What type of projects do you take on?')"  data-question-id="What type of projects do you take on?" class="faq-element__question"
+           href="#What type of projects do you take on?">What type of projects do you take on?</a>
+                <div class="faq-element__answer" data-answer-id="What type of projects do you take on?">Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio, pariatur esse soluta rem nesciunt eaque quod vero quibusdam! Iure inventore molestias veritatis nobis natus qui modi totam atque, saepe quam dolor exercitationem consequuntur rerum.</div>
+            </div>
+            
+   
+           
+           <div class="faq-element faq__item"><a onclick="window.showAction('What is your hourly rate?')"  data-question-id="What is your hourly rate?" class="faq-element__question"
+           href="#What is your hourly rate?">What is your hourly rate?</a>
+                <div class="faq-element__answer" data-answer-id="What is your hourly rate?">Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio, pariatur esse soluta rem nesciunt eaque quod vero quibusdam! Iure inventore molestias veritatis nobis natus qui modi totam atque, saepe quam dolor exercitationem consequuntur rerum.</div>
+            </div>
+            
+   
+           
+           <div class="faq-element faq__item"><a onclick="window.showAction('What time-zone do you work in?')"  data-question-id="What time-zone do you work in?" class="faq-element__question"
+           href="#What time-zone do you work in?">What time-zone do you work in?</a>
+                <div class="faq-element__answer" data-answer-id="What time-zone do you work in?">Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio, pariatur esse soluta rem nesciunt eaque quod vero quibusdam! Iure inventore molestias veritatis nobis natus qui modi totam atque, saepe quam dolor exercitationem consequuntur rerum.</div>
+            </div>
+            
+   
+           
+           <div class="faq-element faq__item"><a onclick="window.showAction('What is the typical timeline for a project?')"  data-question-id="What is the typical timeline for a project?" class="faq-element__question"
+           href="#What is the typical timeline for a project?">What is the typical timeline for a project?</a>
+                <div class="faq-element__answer" data-answer-id="What is the typical timeline for a project?">Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio, pariatur esse soluta rem nesciunt eaque quod vero quibusdam! Iure inventore molestias veritatis nobis natus qui modi totam atque, saepe quam dolor exercitationem consequuntur rerum.</div>
+            </div>
+            </div>
+   
+           <div class='col-md-6' faq__column>
+           <div class="faq-element faq__item"><a onclick="window.showAction('How do you charge for projects ?')"  data-question-id="How do you charge for projects ?" class="faq-element__question"
+           href="#How do you charge for projects ?">How do you charge for projects ?</a>
+                <div class="faq-element__answer" data-answer-id="How do you charge for projects ?">Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio, pariatur esse soluta rem nesciunt eaque quod vero quibusdam! Iure inventore molestias veritatis nobis natus qui modi totam atque, saepe quam dolor exercitationem consequuntur rerum.</div>
+            </div>
+            
+   
+           
+           <div class="faq-element faq__item"><a onclick="window.showAction('What does your design process look like?')"  data-question-id="What does your design process look like?" class="faq-element__question"
+           href="#What does your design process look like?">What does your design process look like?</a>
+                <div class="faq-element__answer" data-answer-id="What does your design process look like?">Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio, pariatur esse soluta rem nesciunt eaque quod vero quibusdam! Iure inventore molestias veritatis nobis natus qui modi totam atque, saepe quam dolor exercitationem consequuntur rerum.</div>
+            </div>
+            
+   
+           
+           <div class="faq-element faq__item"><a onclick="window.showAction('What metrics do you use to measure success?')"  data-question-id="What metrics do you use to measure success?" class="faq-element__question"
+           href="#What metrics do you use to measure success?">What metrics do you use to measure success?</a>
+                <div class="faq-element__answer" data-answer-id="What metrics do you use to measure success?">Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio, pariatur esse soluta rem nesciunt eaque quod vero quibusdam! Iure inventore molestias veritatis nobis natus qui modi totam atque, saepe quam dolor exercitationem consequuntur rerum.</div>
+            </div>
+            
+   
+           
+           <div class="faq-element faq__item"><a onclick="window.showAction('What if I need help after the project is complete?')"  data-question-id="What if I need help after the project is complete?" class="faq-element__question"
+           href="#What if I need help after the project is complete?">What if I need help after the project is complete?</a>
+                <div class="faq-element__answer" data-answer-id="What if I need help after the project is complete?">Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio, pariatur esse soluta rem nesciunt eaque quod vero quibusdam! Iure inventore molestias veritatis nobis natus qui modi totam atque, saepe quam dolor exercitationem consequuntur rerum.</div>
+            </div>
+            </div>
+   
         </div>
       </div>
-    </faq>
+    </section>
     <footer class="section footer">
       <div class="container footer__container">
         <h2 class="footer__title"><span class=''>Ready to make something kickass?</span> <br/><span class='highlight'>Let's get on a call.</span> </h2>
         <div class="row footer__body">
           <div class="col-md-6 footer__contact">
-            <h5 class="footer__contact-title">Portfolio Creator.</h5><span class="footer__contact-description gray-text">4353 Delaware Avenue, San Francisco, USA</span><a class="footer__contact-mail" href="mailto:hi@thefolio.com" target="_blank">hi@thefolio.com</a>
+            <h5 class="footer__contact-title"><img class="footer__logo" src="./img/footer-logo.svg" alt="footer-logo">
+            </h5><span class="footer__contact-description gray-text">4353 Delaware Avenue, San Francisco, USA</span><a class="footer__contact-mail" href="mailto:hi@thefolio.com" target="_blank"><img class="icon mail " src="./img/icons/icons.svg#mail" alt="mail Icon"/>hi@thefolio.com</a>
           </div>
           <div class="col-md-6 footer__menu">
             <ul class="footer-menu footer__menu-item">
@@ -286,10 +319,10 @@
             </ul>
           </div>
         </div>
-        <p class="footer__copyright gray-text"><span class="footer__copyright-text">© All rights reserved.</span><span class="footer__copyright-text">Sumit Hegde .</span><span class="footer__copyright-text">Powered by Webflow </span><span class="footer__copyright-text"><a class="footer__copyright-link" href="#Image License Info">Image License Info</a></span><span class="footer__copyright-text"><a class="footer__copyright-link" href="#Instructions">Instructions</a></span><span class="footer__copyright-text"><a class="footer__copyright-link" href="#Changelog">Changelog</a></span><span class="footer__copyright-text"><a class="footer__copyright-link" href="#Style Guide">Style Guide</a></span>
+        <p class="footer__copyright gray-text"><span class="footer__copyright-text">© All rights reserved.</span><span class="footer__copyright-text">Sumit Hegde .</span><span class="footer__copyright-text">Powered by </span><span class="footer__copyright-text">Webflow</span><span class="footer__copyright-text"><a class="footer__copyright-link" href="#Image License Info">Image License Info</a></span><span class="footer__copyright-text"><a class="footer__copyright-link" href="#Instructions">Instructions</a></span><span class="footer__copyright-text"><a class="footer__copyright-link" href="#Changelog">Changelog</a></span><span class="footer__copyright-text"><a class="footer__copyright-link" href="#Style Guide">Style Guide</a></span>
         </p>
       </div>
     </footer>
   </body>
-  <script src="js/app.min.js?_v=20220430160204"></script>
+  <script src="js/app.min.js?_v=20220430221229"></script>
 </html>

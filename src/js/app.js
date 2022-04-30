@@ -1,4 +1,7 @@
 import { multipleRippleEffect } from "./ripple/ripple.js";
+import { showAction } from "./utils.js";
+
+window.showAction = showAction;
 
 const enableRipple = () => {
   document.addEventListener("mousedown", function (event) {
