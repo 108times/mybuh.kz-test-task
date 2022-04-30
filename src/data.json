@@ -255,18 +255,7 @@
         "text": "Jade helped us build a software so intuitive that it didn't need a walkthrough. He solved complex problems with brilliant design.",
         "href": "#testimonial-1",
         "img": {
-          "url": "./testimony-1.svg"
-        },
-        "about": {
-          "name": "John Frankin",
-          "who": "Founder, Double Bunch"
-        }
-      },
-      {
-        "text": "Jade helped us build a software so intuitive that it didn't need a walkthrough. He solved complex problems with brilliant design.",
-        "href": "#testimonial-1",
-        "img": {
-          "url": "./testimony-1.svg"
+          "url": "./img/testimony-1.svg"
         },
         "about": {
           "name": "John Frankin",

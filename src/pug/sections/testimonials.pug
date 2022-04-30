@@ -1,8 +1,13 @@
 - var data = testimonials
-testimonials.section.testimonials
+section.section.testimonials
     .container.testimonials__container
         h3.section__title.testimonials__pretitle #{data.title}
         h2.testimonials__title #{data.description}
         div.row.testimonials__items
           each val in data.items
-              +testimony('.testimonials__item', val)
+              +testimony('testimonials__item', val)
+        .testimonials__navigation
+            span.testimonials__slider-prev.swiper-button-prev
+                +svgIcon('arrow-right-simple-white')
+            span.testimonials__slider-next.swiper-button-next
+                +svgIcon('arrow-right-simple-white')

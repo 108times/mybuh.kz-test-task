@@ -13,7 +13,7 @@
   }
 
   &__left {
-    padding-left: rem(10);
+    padding-left: rem(8);
   }
 
   &__right {
@@ -24,8 +24,9 @@
   }
 
   .btn {
-    transform: translateY(rem(13));
+    top: rem(13);
     width: rem(200);
+    left: rem(-2);
   }
   &__body {
     padding-left: rem(7);
@@ -84,7 +85,6 @@
       &:hover {
         text-decoration: underline;
         box-shadow: none;
-
         .icon {
           left: rem(20);
         }

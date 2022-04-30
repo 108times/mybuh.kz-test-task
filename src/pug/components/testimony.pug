@@ -1,9 +1,10 @@
 mixin testimony(className, data)
     .testimony(class=className)
         - const alt = getAlt(data.img.url)
-        img.testimony__avatar(url=data.img.url alt=alt)
+        img.testimony__avatar(src=data.img.url alt=alt)
         .testimony__body
+            +svgIcon('left-quote-gradient')(class='testimony__quote')
             h4.testimony__text #{data.text}
             .testimony__author
-                span.testimony__author-name #{about.name}
-                span.testimony__author-who #{about.who}
+                span.testimony__author-name #{data.about.name}
+                span.testimony__author-who #{data.about.who}

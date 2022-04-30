@@ -3,7 +3,7 @@ mixin about-section(className, data)
         h5.about-section__title #{data.title}
         ul.about-section__items
             each val in data.items
-                li.about-section__item
+                li.about-section__item(data-effect='ripple')
                     a.about-section__link(href=val.url)
                         .about-section__item-data
                             if val.image && val.image.url

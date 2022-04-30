@@ -5,6 +5,9 @@
   color: #fff;
   display: inline-block;
   transition: 250ms ease-in-out;
+  position: relative;
+
+
 
   &--primary {
     background: #000;
@@ -12,6 +15,10 @@
       transform: translateY(-2px);
       box-shadow: rgba(255, 138, 86, 0.35) 0px 5px 15px;
       color: $brand-color;
+    }
+
+    & .ripple {
+      background: rgba(255,255,255,0.3);
     }
   }
 

@@ -8,7 +8,7 @@
     <title>TestMyBuh</title>
     <meta name="description" content="Test task">
     <link rel="icon" type="image/x-icon" href="/img/favicon.ico">
-    <link rel="stylesheet" href="css/style.min.css?_v=20220430142707">
+    <link rel="stylesheet" href="css/style.min.css?_v=20220430160204">
   </head>
   <body>
     <header class="header">
@@ -161,21 +161,21 @@
             <div class="about-section about__sections-item">
               <h5 class="about-section__title">📚 Education</h5>
               <ul class="about-section__items">
-                <li class="about-section__item"><a class="about-section__link" href="#Stanford University">
+                <li class="about-section__item" data-effect="ripple"><a class="about-section__link" href="#Stanford University">
                     <div class="about-section__item-data">
                       <div class="about-section__item-description">
                         <h6 class="about-section__item-title">Stanford University</h6>
                         <p class="about-section__item-text">MSc (Human Computer Interaction)</p>
                       </div>
                     </div><span class="about-section__item-date">• 2013-2015</span></a></li>
-                <li class="about-section__item"><a class="about-section__link" href="#MIT Summer School">
+                <li class="about-section__item" data-effect="ripple"><a class="about-section__link" href="#MIT Summer School">
                     <div class="about-section__item-data">
                       <div class="about-section__item-description">
                         <h6 class="about-section__item-title">MIT Summer School</h6>
                         <p class="about-section__item-text">UX Training Bootcamp</p>
                       </div>
                     </div><span class="about-section__item-date">• 2013-2014</span></a></li>
-                <li class="about-section__item"><a class="about-section__link" href="#California State University">
+                <li class="about-section__item" data-effect="ripple"><a class="about-section__link" href="#California State University">
                     <div class="about-section__item-data">
                       <div class="about-section__item-description">
                         <h6 class="about-section__item-title">California State University</h6>
@@ -187,21 +187,21 @@
             <div class="about-section about__sections-item">
               <h5 class="about-section__title">💼 Work Experience</h5>
               <ul class="about-section__items">
-                <li class="about-section__item"><a class="about-section__link" href="#SpaceFleet">
+                <li class="about-section__item" data-effect="ripple"><a class="about-section__link" href="#SpaceFleet">
                     <div class="about-section__item-data"><img class="about-section__logo" src="./img/space-fleet.svg" alt="space-fleet"/>
                       <div class="about-section__item-description">
                         <h6 class="about-section__item-title">SpaceFleet</h6>
                         <p class="about-section__item-text">Senior Product Designer</p>
                       </div>
                     </div><span class="about-section__item-date">• April 2019 - Current</span></a></li>
-                <li class="about-section__item"><a class="about-section__link" href="#MusicMash">
+                <li class="about-section__item" data-effect="ripple"><a class="about-section__link" href="#MusicMash">
                     <div class="about-section__item-data"><img class="about-section__logo" src="./img/music-mash.svg" alt="music-mash"/>
                       <div class="about-section__item-description">
                         <h6 class="about-section__item-title">MusicMash</h6>
                         <p class="about-section__item-text">Information Architect</p>
                       </div>
                     </div><span class="about-section__item-date">• April 2016 - May 2017</span></a></li>
-                <li class="about-section__item"><a class="about-section__link" href="#Kingdom">
+                <li class="about-section__item" data-effect="ripple"><a class="about-section__link" href="#Kingdom">
                     <div class="about-section__item-data"><img class="about-section__logo" src="./img/kingdom.svg" alt="kingdom"/>
                       <div class="about-section__item-description">
                         <h6 class="about-section__item-title">Kingdom</h6>
@@ -214,26 +214,21 @@
         </div>
       </div>
     </section>
-    <testimonials class="section testimonials">
+    <section class="section testimonials">
       <div class="container testimonials__container">
         <h3 class="section__title testimonials__pretitle">Testimonials</h3>
         <h2 class="testimonials__title">Word on the street</h2>
         <div class="row testimonials__items">
-          <div class="testimony .testimonials__item"><img class="testimony__avatar" url="./testimony-1.svg" alt="testimony-1"/>
-            <div class="testimony__body">
+          <div class="testimony testimonials__item"><img class="testimony__avatar" src="./img/testimony-1.svg" alt="testimony-1"/>
+            <div class="testimony__body"><img class="icon left-quote-gradient testimony__quote" src="./img/icons/icons.svg#left-quote-gradient" alt="left-quote-gradient Icon"/>
               <h4 class="testimony__text">Jade helped us build a software so intuitive that it didn't need a walkthrough. He solved complex problems with brilliant design.</h4>
-              <div class="testimony__author"><span class="testimony__author-name"></span><span class="testimony__author-who"></span></div>
-            </div>
-          </div>
-          <div class="testimony .testimonials__item"><img class="testimony__avatar" url="./testimony-1.svg" alt="testimony-1"/>
-            <div class="testimony__body">
-              <h4 class="testimony__text">Jade helped us build a software so intuitive that it didn't need a walkthrough. He solved complex problems with brilliant design.</h4>
-              <div class="testimony__author"><span class="testimony__author-name"></span><span class="testimony__author-who"></span></div>
+              <div class="testimony__author"><span class="testimony__author-name">John Frankin</span><span class="testimony__author-who">Founder, Double Bunch</span></div>
             </div>
           </div>
         </div>
+        <div class="testimonials__navigation"><span class="testimonials__slider-prev swiper-button-prev"><img class="icon arrow-right-simple-white " src="./img/icons/icons.svg#arrow-right-simple-white" alt="arrow-right-simple-white Icon"/></span><span class="testimonials__slider-next swiper-button-next"><img class="icon arrow-right-simple-white " src="./img/icons/icons.svg#arrow-right-simple-white" alt="arrow-right-simple-white Icon"/></span></div>
       </div>
-    </testimonials>
+    </section>
     <faq class="section faq">
       <div class="container faq__container">
         <h3 class="section__title faq__pretitle">FAQ</h3>
@@ -296,5 +291,5 @@
       </div>
     </footer>
   </body>
-  <script src="js/app.min.js?_v=20220430142707"></script>
+  <script src="js/app.min.js?_v=20220430160204"></script>
 </html>
