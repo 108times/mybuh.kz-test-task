@@ -1,15 +1,16 @@
 mixin about-section(className, data)
     .about-section(class=className)
-        h5.about-section__title
+        h5.about-section__title #{data.title}
         ul.about-section__items
             each val in data.items
                 li.about-section__item
                     a.about-section__link(href=val.url)
-                        span.about-section__item-data
+                        .about-section__item-data
                             if val.image && val.image.url
                                 - const alt = getAlt(val.image.url)
                                 img.about-section__logo(src=val.image.url alt=alt)
-                            h6.about-section_item-title #{val.title}
-                            p.about-section_item-text #{val.title}
+                            .about-section__item-description
+                                h6.about-section__item-title #{val.title}
+                                p.about-section__item-text #{val.description}
                         span.about-section__item-date #{val.date}
 

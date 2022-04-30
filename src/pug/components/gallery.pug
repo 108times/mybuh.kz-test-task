@@ -1,4 +1,4 @@
 mixin gallery(className, data)
-  each val in data
     .row.gallery(class=className)
-        img.gallery__image(src=data.url alt=data.alt)
+      each val in data
+        img.gallery__image(src=val.url alt=val.alt)

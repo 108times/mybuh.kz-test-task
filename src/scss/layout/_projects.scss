@@ -35,7 +35,8 @@
     padding-left:0 ;
     display: flex;
     gap: rem(24);
-
+    width: 100vh;
+    position: relative;
     &-navigation {
       position: relative;
       display: flex;
@@ -46,7 +47,7 @@
     }
   }
   .project {
-    max-width: rem(486);
+    min-width: rem(486);
     padding-left: rem(32);
     padding-bottom: rem(24);
     background: #fff;
