@@ -1,0 +1,93 @@
+.projects {
+  margin-top: rem(130);
+
+  &__pretitle {
+    @extend %section-pretitle;
+    color: $violet;
+    text-align: left;
+  }
+  &__title {
+    @extend %section-title;
+    text-align: left;
+
+  }
+
+  &__left {
+    padding-left: rem(10);
+  }
+
+  &__right {
+    display: flex;
+    justify-content: flex-end;
+    align-self: center;
+    padding-right: rem(15);
+  }
+
+  .btn {
+    transform: translateY(rem(13));
+    width: rem(200);
+  }
+  &__body {
+    padding-left: rem(7);
+  }
+  &__slider {
+    margin-top: rem(68);
+    padding-left:0 ;
+    display: flex;
+    gap: rem(24);
+
+    &-navigation {
+      position: relative;
+      display: flex;
+      justify-content: flex-end;
+      gap: rem(7);
+      margin-top: rem(27);
+      margin-right: 4px;
+    }
+  }
+  .project {
+    max-width: rem(486);
+    padding-left: rem(32);
+    padding-bottom: rem(24);
+    background: #fff;
+    z-index: 10;
+    position: relative;
+    &__title {
+      margin-top: rem(30);
+      margin-bottom: rem(15);
+      font-weight: 700;
+      font-size: rem(14);
+      line-height: rem(14);
+      text-transform: uppercase;
+      color: $violet;
+      letter-spacing: 4px;
+    }
+    &__img {
+      margin-left: rem(-32);
+    }
+    &__description {
+      font-weight: 700;
+      font-size: rem(24);
+      line-height: rem(26);
+      margin-block: 0;
+    }
+
+    .btn {
+      position: relative;
+      padding-left: 0;
+      padding-top:rem(7);
+
+      .icon {
+        margin-left: rem(20);
+      }
+      &:hover {
+        text-decoration: underline;
+        box-shadow: none;
+
+        .icon {
+          left: rem(20);
+        }
+      }
+    }
+  }
+}

@@ -1,5 +1,4 @@
 {
-
   "head": {
     "title": "TestMyBuh",
     "description": "Test task"
@@ -138,27 +137,27 @@
     },
     "items": [
       {
-        "date": "April 16, 2021, 6 mins",
+        "date": "April 16,2021, 6 mins",
         "title": "Design tips for designers, that cover everything you need",
         "href": "#blog-1"
       },
       {
-        "date": "April 16, 2021, 5 mins",
+        "date": "April 16 ,2021, 5 mins",
         "title": "How to build rapport with your web design clients",
         "href": "#blog-2"
       },
       {
-        "date": "April 16, 2021, 5 mins",
+        "date": "April 16 ,2021, 5 mins",
         "title": "Top 6 free website mockup tools 2021",
         "href": "#blog-3"
       },
       {
-        "date": "April 16, 2021, 7 mins",
+        "date": "April 16 ,2021, 7 mins",
         "title": "Logo design trends to avoid in 2021",
         "href": "#blog-4"
       },
       {
-        "date": "April 16, 2021, 7 mins",
+        "date": "April 16 ,2021, 7 mins",
         "title": "22 best UI design tools",
         "href": "#blog-5"
       }

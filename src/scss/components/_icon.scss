@@ -1,4 +1,7 @@
 .icon {
   width: rem(12);
   height: rem(12);
+  transition: 250ms ease-in-out;
+  position: relative;
+left: 0;
 }

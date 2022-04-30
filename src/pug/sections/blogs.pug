@@ -1,11 +1,12 @@
 - var data = blogs
-services.section.blogs
+section.section.blogs
+  .blogs__background
   .container.blogs__container
     .row.blogs__row
       .col-md-4.blogs__left
         h3.section__title.blogs__pretitle #{data.title}
         h2.blogs__title #{data.description}
-        +icon-button(data.btn.href) #{data.btn.text}
+        +icon-button(data.btn.href,'arrow-right-white') #{data.btn.text}
       .col-md-8.blogs__right
         each val in data.items
             +blog('blogs__item',val)

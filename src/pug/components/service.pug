@@ -2,8 +2,8 @@ mixin service(className, data)
   .service(class=className)
     - var alt = getAlt(data.image.url)
     img.service__img(src=data.image.url alt=alt)
-    h5.service__title #{title}
-    p.service__text #{text}
+    h5.service__title #{data.title}
+    p.service__text #{data.text}
     ul.service__points
       each val in data.points
         li.service__point #{val}

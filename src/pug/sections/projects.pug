@@ -1,14 +1,19 @@
 - var data = projects
-services.section.projects
+section.section.projects
     .container.projects__container
         .row.projects__row
             .col-md-6.projects__left
                 h3.section__title.projects__pretitle #{data.title}
-                h2.projects__title #{data.description}
+                - var title = parseTitle(data.description, 10)
+                h2.projects__title !{title}
             .col-md-6.projects__right
                 +button(data.btn.href)(class='projects__btn') #{data.btn.text}
             .col-md-12.projects__body
                 .projects__slider
                     each val in data.items
-                        +project('.projects__slide',val)
-
+                        +project('projects__slide',val)
+                .projects__slider-navigation
+                    span.projects__slider-prev.swiper-button-prev
+                        +svgIcon('arrow-right-simple')
+                    span.projects__slider-next.swiper-button-next
+                        +svgIcon('arrow-right-simple')

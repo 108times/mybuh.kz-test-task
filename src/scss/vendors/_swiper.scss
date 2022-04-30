@@ -12,3 +12,35 @@
   background: $brand-color;
 }
 
+.swiper-button-prev, .swiper-button-next {
+  width: rem(53);
+  height: rem(53);
+  display: inline-block;
+  position: relative;
+  background: #fff;
+  //&::before {
+  //  content: '';
+  //  position: absolute;
+  //  top: 50%;
+  //  left: 50%;
+  //  transform: translate(-50%, -50%);
+  //  background-image: url('/img/icons/icons.svg#arrow-right-simple');
+  //  width: rem(16);
+  //  height: rem(16);
+  //}
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  .icon {
+    width: rem(16);
+    height: rem(16);
+  }
+}
+.swiper-button-prev {
+    transform: rotate(180deg);
+}
+
+swiper-button-next {
+
+}

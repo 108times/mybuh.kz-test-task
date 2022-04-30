@@ -1,0 +1,14 @@
+.section {
+  & .container > h3 {
+    @extend %section-pretitle;
+
+    color: $pink;
+
+
+  }
+
+  & .container > h2 {
+    @extend %section-title;
+
+  }
+}
