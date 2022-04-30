@@ -1,13 +1,24 @@
+include pug/utils/index
 include pug/components/index
 
 doctype html
 html(lang="en")
 
   // head
-  include pug/head
+  include pug/sections/head
 
   body
-    main.main
+    include pug/sections/header
 
-    script(src="js/app.min.js")
+    main.main
+    include pug/sections/hero
+    include pug/sections/services
+    include pug/sections/projects
+    include pug/sections/blogs
+    include pug/sections/about
+    include pug/sections/testimonials
+    include pug/sections/faq
+
+    include pug/sections/footer
+  script(src="js/app.min.js")
 

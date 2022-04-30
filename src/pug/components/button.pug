@@ -1,0 +1,8 @@
+mixin button(href='#',primary=true,ripple=true)
+    - const classes = `${primary ? 'btn--primary':'btn--secondary'} ${attributes.class ? attributes.class: ''}`
+    a.btn(
+        href=href
+        class=classes,
+        data-effect=ripple?'ripple':'null'
+    )
+        block

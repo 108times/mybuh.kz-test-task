@@ -1,0 +1,5 @@
+mixin footer-menu(className, data)
+    ul.footer-menu(class=className)
+        each item in data
+            li.footer-menu__item
+                a.footer-menu__link(href=item.href) #{item.text}

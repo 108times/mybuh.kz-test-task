@@ -1,0 +1,9 @@
+mixin icon-button(href='#',iconName='arrow-right',primary=false,ripple=true)
+  - const classes = `${primary ? 'btn--primary':'btn--secondary'} ${attributes.class ? attributes.class: ''}`
+    a.btn(
+        href=href
+        class=classes,
+        data-effect=ripple?'ripple':'null'
+    )
+        block
+        +svgIcon(iconName)(class=`btn__${iconName}`)

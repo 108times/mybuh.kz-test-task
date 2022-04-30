@@ -1,0 +1,28 @@
+mixin svgIcon(iconName='arrow-right')
+    -
+        const folder = './img/icons'
+        const availableIcons = [
+            {
+              name: 'arrow-right',
+              url: `${folder}/icons.svg#arrow-right`,
+            }, {
+                name: 'arrow-right-simple',
+                url: `${folder}/icons.svg#arrow-right-simple`,
+            },
+            {
+                name: 'arrow-right-white',
+                url: `${folder}/icons.svg#arrow-right-white`,
+            }, {
+                name: 'arrow-right-simple-white',
+                url: `${folder}/icons.svg#arrow-right-simple-white`,
+            },{
+                name: 'left-quote-gradient',
+                url: `${folder}/icons.svg#left-quote-gradient`,
+            }, {
+                name: 'mail',
+                url: `${folder}/icons.svg#mail`,
+            },
+        ]
+        const icon = availableIcons.find(obj => obj.name === iconName)
+        const className = `${icon.name} ${attributes.class ?? ''}`
+    img.icon(src=icon.url,class=className, alt=`${icon.name} Icon`)

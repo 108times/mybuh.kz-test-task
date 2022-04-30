@@ -1,6 +1,9 @@
 {
-  "title": "TestMyBuh",
-  "description": "Test task",
+
+  "head": {
+    "title": "TestMyBuh",
+    "description": "Test task"
+  },
   "header": {
     "logo": {
       "url": "./img/logotype.svg"
@@ -45,19 +48,19 @@
     },
     "trustedBy": [
       {
-        "imageUrl": "./img/logo-1",
+        "imageUrl": "./img/logo-1.svg",
         "href": "#logo-1"
       },
       {
-        "imageUrl": "./img/logo-2",
+        "imageUrl": "./img/logo-2.svg",
         "href": "#logo-2"
       },
       {
-        "imageUrl": "./img/logo-3",
+        "imageUrl": "./img/logo-3.svg",
         "href": "#logo-3"
       },
       {
-        "imageUrl": "./img/logo-4",
+        "imageUrl": "./img/logo-4.svg",
         "href": "#logo-4"
       }
     ]
@@ -252,6 +255,20 @@
       {
         "text": "Jade helped us build a software so intuitive that it didn't need a walkthrough. He solved complex problems with brilliant design.",
         "href": "#testimonial-1",
+        "img": {
+          "url": "./testimony-1.svg"
+        },
+        "about": {
+          "name": "John Frankin",
+          "who": "Founder, Double Bunch"
+        }
+      },
+      {
+        "text": "Jade helped us build a software so intuitive that it didn't need a walkthrough. He solved complex problems with brilliant design.",
+        "href": "#testimonial-1",
+        "img": {
+          "url": "./testimony-1.svg"
+        },
         "about": {
           "name": "John Frankin",
           "who": "Founder, Double Bunch"
@@ -298,10 +315,8 @@
     ]
   },
   "footer": {
-    "title": [
-      { "text": "Ready to make something kickass?" },
-      { "text": "Let's get on a call.", "highlighted": true }
-    ],
+    "title": ["Ready to make something kickass?", "Let's get on a call."],
+
     "contact": {
       "title": "Portfolio Creator.",
       "description": "4353 Delaware Avenue, San Francisco, USA",

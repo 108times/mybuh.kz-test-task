@@ -1,0 +1,13 @@
+-
+    function parseTitle(value, highlightIndex) {
+      // highlightIndex - what line to highlight
+      return value instanceof Array ? (function(){
+        let result = ''
+        value.forEach((item,idx) => {
+          const className = (idx === highlightIndex - 1) ? 'highlight' : ''
+            let end = idx !== value.length - 1 ? '<br/>' : '';
+            result += `<span class='${className}'>${item}</span> ${end}`
+        })
+      return result
+      })() : value
+    }

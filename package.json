@@ -1,5 +1,5 @@
 {
-  "name": "imarketing-funtior-frontend-test-task",
+  "name": "mybuh.kz-frontend-test-task",
   "version": "0.0.1",
   "description": "Test task landing page",
   "main": "index.js",
@@ -27,6 +27,7 @@
     "gulp-fonter": "^0.3.0",
     "gulp-group-css-media-queries": "^1.2.2",
     "gulp-iconfont": "^11.0.1",
+    "gulp-iconfont-css": "^3.0.0",
     "gulp-if": "^3.0.0",
     "gulp-imagemin": "^8.0.0",
     "gulp-newer": "^1.4.0",

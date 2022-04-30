@@ -1,0 +1,9 @@
+mixin project(className, data)
+  .project(class=className)
+    - var alt = getAlt(data.img.url)
+    img.project__img(src=data.img.url alt=alt)
+    h5.project__title #{data.title}
+    h6.project__description #{data.description}
+    +icon-button(data.url, 'arrow-right')(class='project__btn') View Project
+
+

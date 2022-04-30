@@ -1,0 +1,11 @@
+- var data = header;
+header.header
+  .container.header__container
+    - var alt = getAlt(data.logo.url);
+    img.logo.header__logo(src=data.logo.url alt=alt)
+    ul.menu.header__menu
+      each val in data.menu.items
+        li.menu__item
+          a.menu__link(href=val.href) #{val.text}
+            if val.withArrow
+              span.menu__link-arrow

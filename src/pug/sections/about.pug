@@ -1,0 +1,14 @@
+- var data = about
+services.section.about
+    .container.about__container
+        .row.about__row
+            .col-md-6.about__left
+                h3.section__title.about__pretitle #{data.title}
+                h2.about__title #{data.description.title}
+            .col-md-6.about__right
+                p.about__text #{data.description.text}
+            .col-md-12.about__body
+                +gallery('about__gallery',data.gallery)
+            .col-md-12.about__sections
+                each val in data.sections
+                    +about-section('about__sections-item', val)

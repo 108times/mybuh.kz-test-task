@@ -1,0 +1,9 @@
+mixin testimony(className, data)
+    .testimony(class=className)
+        - const alt = getAlt(data.img.url)
+        img.testimony__avatar(url=data.img.url alt=alt)
+        .testimony__body
+            h4.testimony__text #{data.text}
+            .testimony__author
+                span.testimony__author-name #{about.name}
+                span.testimony__author-who #{about.who}

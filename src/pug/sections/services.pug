@@ -1,0 +1,8 @@
+- var data = services
+services.section.services
+    .container.services__container
+        h3.section__title.services__pretitle #{data.title}
+        h2.services__title #{data.description}
+        div.row.services__items
+            each val in data.items
+                +service('.col-md-4.services__item', val)

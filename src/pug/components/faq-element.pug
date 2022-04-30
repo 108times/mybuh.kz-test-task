@@ -1,0 +1,5 @@
+mixin faq-element(className, data)
+    .faq-element(class=className)
+        - const id = `#${data.question}`
+        a.faq-element__question(href=id) #{data.question}
+        .faq-elemnt__answer(id=id) #{data.answer}

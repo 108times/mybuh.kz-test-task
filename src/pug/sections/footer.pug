@@ -1,0 +1,20 @@
+- var data = footer;
+footer.section.footer
+    .container.footer__container
+        - var title = parseTitle(data.title, 2);
+        h2.footer__title !{title}
+        .row.footer__body
+            .col-md-6.footer__contact
+                h5.footer__contact-title #{data.contact.title}
+                span.footer__contact-description.gray-text #{data.contact.description}
+                a.footer__contact-mail(href=`mailto:${data.contact.mail}` target='_blank') #{data.contact.mail}
+            .col-md-6.footer__menu
+                each menu in data.menu
+                    +footer-menu('footer__menu-item', menu)
+        p.footer__copyright.gray-text
+                each val in data.copyright
+                    span.footer__copyright-text
+                        if val.url
+                          a.footer__copyright-link(href=val.url) #{val.text}
+                        else
+                          | #{val.text}

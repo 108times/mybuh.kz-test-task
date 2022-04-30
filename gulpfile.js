@@ -26,7 +26,7 @@ import {
   svgImages,
   svgSprite,
   zip,
-  ftp,
+  ftp, iconsFont,
 } from './gulp/tasks/index.js';
 
 // export for npm task
@@ -49,7 +49,7 @@ const fonts = gulp.series(otfToTtf, ttfToWoff, fontsStyles); //plugins.if(!app.d
 export { fonts };
 
 // Основные задачи
-const mainTasks = gulp.series(fontsStyles, gulp.parallel(files, html, scss, js, images, svgImages));
+const mainTasks = gulp.series(fontsStyles, gulp.parallel(files, html, scss, js, images, svgImages, svgSprite));
 
 // Построение сценариев выполнения задач
 const dev = gulp.series(clean, mainTasks, gulp.parallel(watcher, server));

@@ -1,0 +1,8 @@
+- var data = testimonials
+testimonials.section.testimonials
+    .container.testimonials__container
+        h3.section__title.testimonials__pretitle #{data.title}
+        h2.testimonials__title #{data.description}
+        div.row.testimonials__items
+          each val in data.items
+              +testimony('.testimonials__item', val)
