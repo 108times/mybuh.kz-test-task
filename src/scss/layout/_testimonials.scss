@@ -12,11 +12,10 @@
     }
 
     transform: translateX(rem(-5));
-
   }
 
   .testimony {
-      display: flex;
+    display: flex;
     padding-top: rem(85);
     gap: rem(145);
 
@@ -66,12 +65,19 @@
     right: 0;
     display: flex;
     justify-content: flex-end;
+
+
+    & .ripple {
+      background: rgba(255,255,255,0.3);
+
+    }
   }
-  &__slider-next,&__slider-prev {
+  &__swiper-next,&__swiper-prev {
+    width: rem(51) !important;
     background: #000;
     transform: rotate(180deg);
   }
-  &__slider-prev {
+  &__swiper-prev {
     transform: rotate(0deg);
 
   }

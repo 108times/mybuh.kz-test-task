@@ -3,8 +3,8 @@ mixin about-section(className, data)
         h5.about-section__title #{data.title}
         ul.about-section__items
             each val in data.items
-                li.about-section__item(data-effect='ripple')
-                    a.about-section__link(href=val.url)
+                li.about-section__item
+                    a.about-section__link(href=val.url data-effect='ripple')
                         .about-section__item-data
                             if val.image && val.image.url
                                 - const alt = getAlt(val.image.url)

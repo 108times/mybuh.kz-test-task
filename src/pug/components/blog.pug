@@ -1,5 +1,5 @@
 mixin blog(className, data)
-    .blog(class=className)
+    .blog(class=className )
         span.blog__date #{data.date}
         h5.blog__title #{data.title}
         +icon-button(data.href, 'arrow-right-white') Read the article

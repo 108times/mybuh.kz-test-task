@@ -125,6 +125,30 @@
         "title": "Web Design",
         "description": "Maize Website Design",
         "url": "#project-3"
+      },
+      {
+        "img": {
+          "url": "./img/project-1.svg"
+        },
+        "title": "Branding",
+        "description": "Soulful Rebrand",
+        "url": "#project-1"
+      },
+      {
+        "img": {
+          "url": "./img/project-2.svg"
+        },
+        "title": "Product Design",
+        "description": "Datadash Product design",
+        "url": "#project-2"
+      },
+      {
+        "img": {
+          "url": "./img/project-3.svg"
+        },
+        "title": "Web Design",
+        "description": "Maize Website Design",
+        "url": "#project-3"
       }
     ]
   },
@@ -133,7 +157,7 @@
     "description": "Latest Blogs",
     "btn": {
       "text": "View all",
-      "href": "#"
+      "href": "#blogs"
     },
     "items": [
       {
@@ -259,6 +283,28 @@
         },
         "about": {
           "name": "John Frankin",
+          "who": "Founder, Double Bunch"
+        }
+      },
+      {
+        "text": "Jade helped us build a software so intuitive that it didn't need a walkthrough. He solved complex problems with brilliant design.",
+        "href": "#testimonial-1",
+        "img": {
+          "url": "./img/testimony-1.svg"
+        },
+        "about": {
+          "name": "Joshua",
+          "who": "Founder, Double Bunch"
+        }
+      },
+      {
+        "text": "Jade helped us build a software so intuitive that it didn't need a walkthrough. He solved complex problems with brilliant design.",
+        "href": "#testimonial-1",
+        "img": {
+          "url": "./img/testimony-1.svg"
+        },
+        "about": {
+          "name": "Ben",
           "who": "Founder, Double Bunch"
         }
       }

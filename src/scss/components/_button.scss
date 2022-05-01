@@ -24,14 +24,16 @@
 
   &--secondary {
     color: #000;
-
+    transition: left 150ms ease-in-out;
     .icon {
       margin-left: rem(30);
       transform: scale(1.12) translateY(rem(2));
     }
     &:hover {
-      transform: translateY(-2px);
-      box-shadow:#000 0 0 0 1px inset;
+      background: rgba(0,0,0,0.1);
+      & .icon {
+        left: rem(5);
+      }
     }
   }
 }

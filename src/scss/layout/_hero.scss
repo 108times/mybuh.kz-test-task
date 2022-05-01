@@ -57,6 +57,13 @@
       text-align: center;
     }
 
+  }
 
+  .brand {
+    transition: 150ms ease;
+    &:hover {
+      filter: drop-shadow(16px 16px 20px $brand-color);
+      transform: scale(1.2);
+    }
   }
 }

@@ -31,24 +31,33 @@
   &__body {
     padding-left: rem(7);
   }
-  &__slider {
+  &__swiper {
     margin-top: rem(68);
     padding-left:0 ;
     display: flex;
-    gap: rem(24);
-    width: 100vh;
+    //gap: rem(24);
     position: relative;
+    height: auto !important;
+    &-core {
+      max-width: rem(1400)  !important;
+      width: rem(1400) !important;
+      left: 6px;
+      //width: rem(1700) !important;
+    }
+
     &-navigation {
       position: relative;
       display: flex;
       justify-content: flex-end;
       gap: rem(7);
-      margin-top: rem(27);
-      margin-right: 4px;
+      margin-top: rem(50);
+      margin-right: rem(185);
     }
   }
+
+
   .project {
-    min-width: rem(486);
+    width: rem(453) !important;
     padding-left: rem(32);
     padding-bottom: rem(24);
     background: #fff;
@@ -78,13 +87,16 @@
       position: relative;
       padding-left: 0;
       padding-top:rem(7);
-
+      * {
+        pointer-events: none;
+      }
       .icon {
         margin-left: rem(20);
       }
       &:hover {
         text-decoration: underline;
         box-shadow: none;
+        background: none;
         .icon {
           left: rem(20);
         }

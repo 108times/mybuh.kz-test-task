@@ -8,12 +8,12 @@ section.section.projects
                 h2.projects__title !{title}
             .col-md-6.projects__right
                 +button(data.btn.href)(class='projects__btn') #{data.btn.text}
-            .col-md-12.projects__body
-                .projects__slider
+            .col-md-12.projects__body.swiper.projects__swiper-core
+                .projects__swiper.swiper-wrapper
                     each val in data.items
-                        +project('projects__slide',val)
-                .projects__slider-navigation
-                    span.projects__slider-prev.swiper-button-prev
+                        +project('projects__slide swiper-slide',val)
+                .projects__swiper-navigation
+                    span.projects__swiper-prev.swiper-button-prev(data-effect='ripple')
                         +svgIcon('arrow-right-simple')
-                    span.projects__slider-next.swiper-button-next
+                    span.projects__swiper-next.swiper-button-next(data-effect='ripple')
                         +svgIcon('arrow-right-simple')

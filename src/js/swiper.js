@@ -1,53 +1,55 @@
 // core version + navigation, pagination modules:
-import Swiper, { Pagination, Autoplay } from 'swiper';
+import Swiper, { Pagination, Autoplay, Navigation } from "swiper";
 // import Swiper and modules styles
-import 'swiper/css';
-import 'swiper/css/pagination';
-
+import "swiper/css";
+import "swiper/css/pagination";
+import "swiper/css/navigation";
 // init Swiper:
-const swiper = new Swiper('.swiper', {
-  // configure Swiper to use modules
-  modules: [Pagination, Autoplay],
-  // Optional parameters
-  loop: true,
-  slidesPerView: 3,
-  spaceBetween: 30,
-  breakpoints: {
-    // when window width is >= 320px
-    320: {
-      slidesPerView: 1,
-      spaceBetween: 20,
+
+export const enableSwipers = () => {
+  const projectsSwiper = new Swiper(".projects__swiper-core", {
+    // configure Swiper to use modules
+    modules: [Autoplay, Navigation],
+    // Optional parameters
+    loop: true,
+    slidesPerView: 3,
+    setWrapperSize: true,
+    slidesOffsetBefore: 1426,
+    breakpoints: {
+      //   // when window width is >= 320px
+      992: {
+        slidesPerView: 3,
+        spaceBetween: 25,
+      },
     },
-    // when window width is >= 480px
-    576: {
-      slidesPerView: 2,
-      spaceBetween: 30,
+    // autoplay: {
+    //   delay: 2000,
+    //   disableOnInteraction: false,
+    // },
+
+    navigation: {
+      nextEl: ".projects__swiper-next",
+      prevEl: ".projects__swiper-prev",
     },
-    // when window width is >= 640px
-    768: {
-      slidesPerView: 3,
-      spaceBetween: 20,
+  });
+  const testimonialsSwiper = new Swiper(".testimonials__swiper-core", {
+    // configure Swiper to use modules
+    modules: [Autoplay, Navigation],
+    // Optional parameters
+    loop: true,
+    slidesPerView: 1,
+
+    // autoplay: {
+    //   delay: 2000,
+    //   disableOnInteraction: false,
+    // },
+    navigation: {
+      nextEl: ".testimonials__swiper-next",
+      prevEl: ".testimonials__swiper-prev",
     },
-    992: {
-      slidesPerView: 3,
-      spaceBetween: 30,
-    },
-    //        'xs': 342px,
-    //   'sm': 576px,
-    //   'md': 768px,
-    //   'lg': 992px,
-    //   'xl': 1124px,
-  },
-  autoplay: {
-    delay: 2000,
-    disableOnInteraction: false,
-  },
-  // If we need pagination
-  pagination: {
-    el: '.swiper-pagination',
-    clickable: true,
-    renderBullet: function (index, className) {
-      return '<span class="' + className + '"></span>';
-    },
-  },
-});
+  });
+  return {
+    projects: projectsSwiper,
+    testimonials: testimonialsSwiper,
+  };
+};

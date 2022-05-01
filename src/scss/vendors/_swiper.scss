@@ -13,11 +13,12 @@
 }
 
 .swiper-button-prev, .swiper-button-next {
-  width: rem(53);
-  height: rem(53);
-  display: inline-block;
-  position: relative;
+  width: rem(53) !important;
+  height: rem(53) !important;
+  position: relative !important;
   background: #fff;
+  left: auto !important;
+  right: auto !important;
   //&::before {
   //  content: '';
   //  position: absolute;
@@ -28,6 +29,11 @@
   //  width: rem(16);
   //  height: rem(16);
   //}
+  transition: 150ms ease-in-out;
+  &:hover {
+    opacity: 0.8;
+  }
+  top: 0 !important;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -35,6 +41,13 @@
   .icon {
     width: rem(16);
     height: rem(16);
+  }
+
+  &::before {
+    content: '';
+  }
+  &::after {
+    content: '' !important;
   }
 }
 .swiper-button-prev {

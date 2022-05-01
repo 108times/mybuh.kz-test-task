@@ -73,10 +73,10 @@
       margin-left: rem(34);
     }
 
-      &__logo {
-        transform: translateY(rem(-8));
-        margin-right: rem(20);
-      }
+    &__logo {
+      transform: translateY(rem(-8));
+      margin-right: rem(20);
+    }
     &__title {
       font-weight: 400;
       font-size: rem(36);
@@ -91,6 +91,15 @@
       justify-content: space-between;
       width: 100%;
       position: relative;
+      padding-bottom: rem(24);
+      padding-left: rem(13);
+      padding-top: rem(23);
+      * {
+        pointer-events: none;
+      }
+      .ripple {
+        background: rgba(0,0,0,0.05);
+      }
     }
     &__items {
     list-style: none;
@@ -100,11 +109,9 @@
 
     &__item {
       max-width: rem(603);
-      margin-bottom:rem(7);
+      margin-bottom:rem(5.5);
       margin-left: rem(-40);
-      padding-bottom: rem(24);
-      padding-left: rem(13);
-      padding-top: rem(23);
+
       position: relative;
       background: #fff;
       transition: 250ms ease-in-out;
@@ -113,6 +120,7 @@
       &:hover {
         transform: translateY(rem(-5));
         box-shadow: rgba(0,0,0,0.3) 0px 5px 15px;
+        background: rgba($blue,0.03);
         z-index: 20;
         &::after {
           display: none;

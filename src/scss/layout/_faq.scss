@@ -28,7 +28,10 @@
     padding-bottom: rem(71);
   }
 
-
+  .ripple {
+    background: rgba(255,255,255,0.3);
+    opacity: 1;
+  }
 
   .faq-element{
     min-width: rem(583);
@@ -42,6 +45,15 @@
         position: relative;
         letter-spacing: 0.3px;
         left: -3px;
+        transition: background 50ms 100ms;
+
+        &:hover, &.active {
+          color: $pink;
+          text-shadow: 0px 0px 10px rgba($pink,0.88)
+        }
+        &.active {
+          background: rgba(255,255,255,0.3);
+        }
         &::after {
           position: absolute;
           content: '';

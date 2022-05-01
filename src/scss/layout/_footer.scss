@@ -41,10 +41,17 @@
       display: flex;
       align-items: center;
       font-size: rem(17);
+      &:hover {
+        color: #fff;
+        & .icon {
+          filter: brightness(500%);
+        }
+      }
       .icon {
         width: rem(29);
         height: rem(29);
         margin-right: rem(7);
+
       }
     }
   }
@@ -79,6 +86,7 @@
 
         &:hover {
           color: $blue;
+          text-shadow: 0px 0px 15px $blue
         }
       }
     }

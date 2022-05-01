@@ -83,19 +83,24 @@ export function doActionToMultipleElements({
 export const showAction = (id, e) => {
   // show needed answer and hide other answers
   const answers = document.querySelectorAll(".faq-element__answer");
+  const questions = document.querySelectorAll(".faq-element__question");
+
   answers.forEach((itm) => itm.classList.remove("visible"));
+  questions.forEach((itm) => itm.classList.remove("active"));
+
   const answer = document.querySelector(`[data-answer-id="${id}"]`);
   const question = document.querySelector(`[data-question-id="${id}"]`);
-
+  console.log(answer.opened);
   if (!answer.opened) {
+    window.lastAnswer && (window.lastAnswer.opened = false);
+
     answer.opened = true;
     answer.classList.add("visible");
     question.classList.add("active");
-  } else {
-    answer.opened = false;
-    answer.classList.remove("visible");
-    question.classList.remove("active");
+    window.lastAnswer = answer;
+    // if (window.lastQuestion) {
+    //   window.lastQuestion.classList.remove("active");
+    // }
+    // window.lastQuestion = question;
   }
-
-  console.log(e);
 };
